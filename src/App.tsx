@@ -12,18 +12,7 @@ const newsStories = [
   { title: "augue metus eleifend", image: Placeholder },
 ];  
 
-//<Container newsItems={newsStories} />
-
 function App() {
-  
-
-  // <nav className="news-nav">
-  //           <a href="#">News</a>
-  //           <a href="#">Sports</a>
-  //           <a href="#">Weather</a>
-  //           <a href="#">Live</a>
-  //           <a href="#">Sounds</a>
-  //         </nav>
 
   return (
     <>
