@@ -1,0 +1,155 @@
+
+.news-page {
+  font-family: inherit;
+  color: black;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.news-header {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.news-nav {
+  background-color: black;
+  /* margin-left: 1rem; */
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: auto;
+}
+
+.site-nav {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+
+
+.news-nav a:hover {
+  text-decoration: underline;
+}
+
+.news-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.news-featured-image {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.news-featured-title {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.news-featured-description {
+  margin-top: 0.5rem;
+  color: #444;
+}
+
+.news-sidebar {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.news-sidebar-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.news-sidebar-list {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.news-news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.news-news-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.news-news-card-image {
+  width: 100%;
+  height: auto;
+}
+
+.news-news-card-content {
+  padding: 0.75rem;
+}
+
+.news-news-card-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.news-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
+
+
+.news-featured-image-story {
+  width: 100%;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.news-article-content {
+  width: 80%;
+  display: block;
+}
+
+.news-main-story {
+  display: block;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.news-featured-title-story {
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.news-featured-description-story {
+  margin-top: 0.5rem;
+  color: #444;
+  text-align: center;
+}
